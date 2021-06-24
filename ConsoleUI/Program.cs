@@ -87,8 +87,8 @@ namespace ConsoleUI
             {
                 Console.WriteLine("Welcome to the Party!!");
                 GetUserInfo();
-                PrintGuestsName();
                 MultiLineAnimation();
+                PrintGuestsName();
                 PrintWinner();
                 PrintDeath();
                 playAgain = GetUserInput("Would you like to play a game?  ").ToLower();
